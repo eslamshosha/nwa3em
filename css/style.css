@@ -1050,6 +1050,9 @@ html[dir=rtl] .social{
 /*                    menu in phone size                      */
 
 @media (max-width: 1199px){
+    .dropdown-content::before{
+        display: none;
+    }
     .top-header .img-logo img{
         max-width: 150px;
     }
@@ -1606,6 +1609,9 @@ html[dir=rtl] .nav-header .cats-dispaly  li{
         visibility: visible;
         transition: none;
         box-shadow: none;
+    }
+    .cats-dispaly::before{
+        display: none;
     }
     .cats-dispaly{
         left: 0;
