@@ -257,6 +257,9 @@ html[dir=rtl] .add-to .dropdown-content{
 .main {
     position: relative;
 }
+.swiper-cont{
+    position: relative;
+}
 .main .pro-img {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -312,11 +315,11 @@ html[dir=rtl] .add-to .dropdown-content{
 }
   
 .swiper-btn.swiper-btn-next {
-    left: 57px;
+    left: -57px;
 }
   
 .swiper-btn.swiper-btn-prev {
-    right: 57px;
+    right: -57px;
 }
   
 .main-slider .swiper-pagination {
@@ -508,11 +511,11 @@ html[dir=rtl] .product .product-hint{
 }
 
 .product-slider .swiper-btn.swiper-btn-next {
-    left: -77px;
+    left: -35px;
 }
 
 .product-slider .swiper-btn.swiper-btn-prev {
-    right: -77px;
+    right: -35px;
 }
 
 .product-slider .swiper-pagination {
@@ -616,6 +619,10 @@ html[dir=rtl] .product .product-hint{
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     margin-bottom: 45px;
+}
+.product-cont .product{
+    width: 100%;
+    overflow: hidden;
 }
 .product-grid .product-btn{
     position: relative;
@@ -970,6 +977,9 @@ html[dir=rtl] .social{
     font-family: "TajawalBold";
     font-size: 17px;
     color: #000;
+}
+.nav-foot-cont {
+    margin-bottom: 20px;
 } 
 .nav-foot-li{
     margin-bottom: 8px;
@@ -1017,6 +1027,7 @@ html[dir=rtl] .social{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-transform: capitalize;
 }
 
 .footer-accordion {
