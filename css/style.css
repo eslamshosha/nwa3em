@@ -229,6 +229,7 @@ html[dir=rtl] .nav-header .cat-li:last-of-type{
     margin-inline-end: 0;
 }
 .show-icons a{
+    display: flex;
     color: #212121;
     transition: all .3s ease-in-out;
 }
